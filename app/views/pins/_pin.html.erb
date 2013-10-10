@@ -13,6 +13,17 @@
   <%= link_to 'Edit', edit_pin_path(pin) %>
   <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
   </p>
+  <html xmlns:fb="http://ogp.me/ns/fb#">
+        <div class="fb-like" data-font="verdana" data-href="http://facebook.com/CDanArt" data-layout="button_count" data-send="true" data-show-faces="false" data-width="120" style="margin: 0px 0px 0px 0px;"></div>
+        <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=146351542070012";
+  fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 <% end %>
 </div>
   
