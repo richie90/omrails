@@ -9,6 +9,7 @@ gem 'cocaine', '0.3.2'
 gem 'faker'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'slidesjs-rails'
 
 group :production do
     gem 'pg'
