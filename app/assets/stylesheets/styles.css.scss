@@ -54,3 +54,13 @@ body {
 	margin: 10px 0 5px;	
 }
 
+.jumbotron {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.map_canvas {
+    position: absolute;
+    top: 0; bottom:0; left: 0; right:0;
+    margin: auto;
+}
